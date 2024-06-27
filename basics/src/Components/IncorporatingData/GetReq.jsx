@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from '../../css/header.module.css';
 
 function GetUser({login})
 {
@@ -24,5 +25,12 @@ function GetUser({login})
 
 export default function GetReq()
 {
-    return(<GetUser login="moonhighway"></GetUser>);
+    return(
+        <div>
+            <h1 className={styles.header}>Github API Call</h1>
+            <div className={styles.basic}>
+                <GetUser login="moonhighway"></GetUser>
+            </div>
+        </div>
+    );
 }

@@ -1,0 +1,15 @@
+.header
+{
+    color: red;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.basic
+{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px lightblue;
+    background-color: aquamarine;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from '../../css/header.module.css';
 
 function JokeCall()
 {
@@ -27,6 +28,9 @@ function JokeCall()
 export default function GetJoke()
 {
     return(<div>
+        <h1 className={styles.header}>Get the Joke</h1>
+        <div className={styles.basic}>
         {JokeCall()}
+        </div>        
     </div>);
 }

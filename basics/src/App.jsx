@@ -21,8 +21,9 @@ function App() {
       <Fruits></Fruits>
       <MyUseEffect></MyUseEffect>
       <MyUseState></MyUseState>
-      <MyUseLayoutEffect></MyUseLayoutEffect>
-      <GetReq></GetReq> */}
+  <MyUseLayoutEffect></MyUseLayoutEffect>*/}
+      <MyUseState></MyUseState>
+      <GetReq></GetReq>
       <GetJoke></GetJoke>
     </div>
   );
