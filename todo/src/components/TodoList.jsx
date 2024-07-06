@@ -1,5 +1,4 @@
 import {TodoItems} from "./TodoItems";
-//why are the {} needed here
 import styles from '../css/todolist.module.css'
 
 export default function TodoList({todos, setTodos})

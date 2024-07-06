@@ -14,7 +14,7 @@ export function TodoItems({item, todos, setTodos})
     function handleClick(i)
     {
         console.log("Clicked item", i);
-        const newT = todos.map((t) => t.name === i.name ? {...t,name: i.name, done: !i.done} : t);
+        const newT = todos.map((t) => t.name === i.name ? {name: i.name, done: !i.done} : t);
         setTodos(newT);
         console.log(newT);
     }
