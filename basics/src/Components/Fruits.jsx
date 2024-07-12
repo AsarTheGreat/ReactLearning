@@ -9,7 +9,7 @@ export default function Fruits()
 
     return(<div>
         My Fruits Component
-        {/* <div>{fruitsList.map((f) => <Fruit id={f.id} name={f.name} count={f.count}></Fruit>)}</div> */}
-        <div>{fruitsList.map((f) => <li>{f.id} {f.name} {f.count}</li>)}</div>
+        <div>{fruitsList.map((f) => <Fruit id={f.id} name={f.name} count={f.count}></Fruit>)}</div>
+        {/* <div>{fruitsList.map((f) => <li>{f.id} {f.name} {f.count}</li>)}</div> */}
     </div>);
 }
