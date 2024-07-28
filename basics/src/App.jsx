@@ -14,14 +14,14 @@ function App() {
   return (
     <div>
       Hello World and React!
-      {/* <Welcome></Welcome>
+      <Welcome></Welcome>
       <WelcomeName></WelcomeName>
       <WelcomeUserButton></WelcomeUserButton>
       <Counter></Counter>
       <Fruits></Fruits>
       <MyUseEffect></MyUseEffect>
       <MyUseState></MyUseState>
-  <MyUseLayoutEffect></MyUseLayoutEffect>*/}
+      <MyUseLayoutEffect></MyUseLayoutEffect>
       <MyUseState></MyUseState>
       <GetReq></GetReq>
       <GetJoke></GetJoke>

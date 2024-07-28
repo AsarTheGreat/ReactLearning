@@ -12,6 +12,6 @@ export default function WelcomeUserButton()
 
     return(<div>
         <input type="text" onChange={(e) => setName(e.target.value)}></input>
-        <input type="button" value="Button" onClick={(e) => handleButton(e)}></input>
+        <input type="button" value="Welcome" onClick={(e) => handleButton(e)}></input>
     </div>);
 }

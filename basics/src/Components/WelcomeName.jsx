@@ -1,6 +1,9 @@
 export default function WelcomeName()
 {
-    const name = "Kierra";
+    /*
+    You can enter any name below...
+     */
+    const name = "Person Name";
 
     return(<div>
         Hello {name}. Welcome to "WelcomeName" component

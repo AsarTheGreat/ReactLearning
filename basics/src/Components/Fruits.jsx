@@ -2,6 +2,9 @@ import Fruit from "./Fruit";
 
 export default function Fruits()
 {
+    /*
+    You can add any fruit items, or change to something else
+     */
     const fruitsList = [
         {id:1, name:"apple", count:10},
         {id:2, name:"grapes", count:15}

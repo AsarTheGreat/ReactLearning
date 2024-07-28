@@ -4,6 +4,11 @@ import shared from '../../css/header.module.css';
 
 export default function MyUseState()
 {
+    /*
+    welcomuserinput.module.css
+    header.module.css
+    These css files can be modified to change the color/font to your liking.
+     */
     const [name, setName] = useState("");
     return(
         <div>
