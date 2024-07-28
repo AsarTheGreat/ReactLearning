@@ -1,2 +1,7 @@
-React Basics
-Adding another note to file
+1. Open "Terminal" screen in Visual Studio Code.
+2. Make sure in Desktop/Code/ReactLearning/basics folder!
+3. Run below commands:
+npm install
+npm run dev
+4. Copy displayed URL in a browser, http://localhost:XXXX/
+5. Open each JSX in the Components folder to learn about each.

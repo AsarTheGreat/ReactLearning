@@ -1,4 +1,12 @@
-Creating React app using Vite:
-1. npm create vite@latest
-2. npm install
-3. npm run dev
+1. Open "Terminal" screen in Visual Studio Code.
+2. Make sure in Desktop/Code/ReactLearning/todo folder!
+3. Run below commands:
+npm install
+npm run dev
+4. Copy displayed URL in a browser, http://localhost:XXXX/
+5. Open each JSX in the Components folder to learn about each.
+6. To modify the color/font of each JSX, open pairing css file
+as noted in the import statement at the top of the file.
+For example, to change the background-color of the Header.JSX
+open the header.module.css. Change the backgroud-color property
+to blue.
